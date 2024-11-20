@@ -10,7 +10,7 @@
         }
         .container{
             background-color: white;
-            color:grey;
+            color:rgb(79, 77, 77);
             margin: 0px;
         }
         .row{
@@ -23,7 +23,7 @@
             justify-content: space-around;
             align-items: center;
             padding: 20px;
-            height: 600px;
+            height: 800px;
         }
         .row1 img {
             max-width: 300px;
@@ -31,47 +31,49 @@
             margin-left: 20px;
         }
         .row2 {
-            
+            display: flex;
             background-color: silver;
             justify-content: space-around;
             padding: 20px;
-            height: 600px;
+            height: 800px;
             align-items: center;
         }
         .row3 {
-            
+            display: flex;
             background-color: rgb(223, 118, 118);
-            justify-content: space-around;
             padding: 20px;
-            height: 600px;
+            height: 800px;
             align-items: center;
         }
         .row4 {
-            
+            display: flex;
             background-color: rgb(234, 215, 42);
             justify-content: space-around;
             padding: 20px;
-            height: 600px;
+            height: 800px;
             align-items: center;
         }
         .row5 {
-            
+            display: flex;
             background-color: rgb(146, 70, 222);
-            justify-content: space-around;
+            justify-content:space-around;
             padding: 20px;
-            height: 600px;
+            height: 800px;
             align-items: center;
         }
-        .row6 {
-            
+        .footer {
             background-color: rgb(26, 25, 27);
-            justify-content: space-around;
-            padding: 20px;
-            height: 100px;
-            align-items: center;
+            color: white;
         }
         .box{
             padding:10px;
+        }
+        .box1{
+            padding: 20px;
+            background-color: white;
+            color: black;
+            justify-content: space-around;
+            margin:10px;
         }
     </style>
 </head>
@@ -110,19 +112,25 @@
         </div> 
         
         <div class="row3" id="About">
-            <p>This is the About me page</p>
+            <h1>About me:</h1>
+            <h3>My languages: Python, Java, HTML, CSS</h3>
+            <h3>Frameworks: Django, Reactjs</h3>
         </div>
 
         <div class="row4" id="Services">
-            <p>This is the Services page</p>
+            <h1>Services</h1>
+                <div class = "box1"> <h3>Web-App Development</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   </div>
+                <div class = "box1"> <h3>Mobile App Development</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
+                <div class = "box1"> <h3>Backend Development</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
         </div>
 
         <div class="row5" id="Contact">
-            <p>This is the Contact page</p>
+            <h3>Contact no. : (+91)1234567890</h3>
         </div> 
-        <div class="row6">
-            <p>Footer: end of the page</p>
+        <div class="footer">
+            <p>Footer: End of the site @copyright</p>
         </div> 
+</div>
 </div>
 </body>
 </html>
