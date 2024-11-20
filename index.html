@@ -23,7 +23,7 @@
             justify-content: space-around;
             align-items: center;
             padding: 20px;
-            height: 300px;
+            height: 600px;
         }
         .row1 img {
             max-width: 300px;
@@ -31,11 +31,43 @@
             margin-left: 20px;
         }
         .row2 {
-            display:flex;
+            
             background-color: silver;
             justify-content: space-around;
             padding: 20px;
-            height: 300px;
+            height: 600px;
+            align-items: center;
+        }
+        .row3 {
+            
+            background-color: rgb(223, 118, 118);
+            justify-content: space-around;
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+        }
+        .row4 {
+            
+            background-color: rgb(234, 215, 42);
+            justify-content: space-around;
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+        }
+        .row5 {
+            
+            background-color: rgb(146, 70, 222);
+            justify-content: space-around;
+            padding: 20px;
+            height: 600px;
+            align-items: center;
+        }
+        .row6 {
+            
+            background-color: rgb(26, 25, 27);
+            justify-content: space-around;
+            padding: 20px;
+            height: 100px;
             align-items: center;
         }
         .box{
@@ -57,23 +89,40 @@
     <h4>@copyright 2024. All rights reserved</h4> -->
 
     <div class="container">
+
         <div class="row">
             <div class="box"><h1> Srishti Gupta </h1>
             </div>
-            <div class="box"><a href="#">Home</a> | <a href="#">Project</a> | <a href="#">About</a> | <a href="#">Services</a> | <a href="#">Contact</a> </div>
+            <div class="box"><a href="#Home">Home</a> | <a href="#Project">Project</a> | <a href="#About">About</a> | <a href="#Services">Services</a> | <a href="#Contact">Contact</a> </div>
         </div>
 
-        <div class="row1">
+        <div class="row1" id="Home">
             <div><h1>Srishti Gupta</h1><h3>Full Stack Developer</h3></div>
             <div><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/full_stack_banner.jpg" alt="Full Stack Banner" ></div>
-    </div>
-    <div class="row2">
-        <div><h1>Projects</h1><ol>
-            <li>Project 1</li>
-            <li>Project 2</li>
-        </ol>
-    </div>
+        </div>
+
+        <div class="row2" id="Project">
+            <div><h1>Projects</h1><ol>
+                <li>Project 1</li>
+                <li>Project 2</li>
+            </ol>
+            </div>
+        </div> 
         
+        <div class="row3" id="About">
+            <p>This is the About me page</p>
+        </div>
+
+        <div class="row4" id="Services">
+            <p>This is the Services page</p>
+        </div>
+
+        <div class="row5" id="Contact">
+            <p>This is the Contact page</p>
+        </div> 
+        <div class="row6">
+            <p>Footer: end of the page</p>
+        </div> 
 </div>
 </body>
 </html>
